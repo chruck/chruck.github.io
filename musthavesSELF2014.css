@@ -63,33 +63,12 @@ body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
 
-/*
-    background: rgb(215, 215, 215);
-*/
     background: rgb(10, 10, 10);
-/*
-    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(240, 240, 240)), to(rgb(190, 190, 190)));
-*/
     background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 500, from(rgb(15, 15, 15)), to(rgb(65, 65, 65)));
-/*
-    background: -webkit-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-*/
     background: -webkit-radial-gradient(rgb(15, 15, 15), rgb(65, 65, 65));
-/*
-    background:    -moz-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-*/
     background:    -moz-radial-gradient(rgb(15, 15, 15), rgb(65, 65, 65));
-/*
-    background:     -ms-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-*/
     background:     -ms-radial-gradient(rgb(15, 15, 15), rgb(65, 65, 65));
-/*
-    background:      -o-radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-*/
     background:      -o-radial-gradient(rgb(15, 15, 15), rgb(65, 65, 65));
-/*
-    background:         radial-gradient(rgb(240, 240, 240), rgb(190, 190, 190));
-*/
     background:         radial-gradient(rgb(15, 15, 15), rgb(65, 65, 65));
 }
 
@@ -106,9 +85,7 @@ a {
     color: inherit;
     text-decoration: none;
     padding: 0 0.1em;
-/*    background: rgba(255,255,255,0.5);*/
     background: rgba(255,255,255,0.5);
-/*    text-shadow: -1px -1px 2px rgba(100,100,100,0.9);*/
     text-shadow: -1px -1px 2px rgba(100,100,100,0.9);
     border-radius: 0.2em;
 
@@ -121,9 +98,7 @@ a {
 
 a:hover,
 a:focus {
-/*    background: rgba(255,255,255,1);*/
     background: rgba(255,255,255,1);
-/*    text-shadow: -1px -1px 2px rgba(100,100,100,0.5);*/
     text-shadow: -1px -1px 2px rgba(100,100,100,0.5);
 }
 
@@ -147,10 +122,8 @@ a:focus {
     padding: 10px 10px 0;
     margin: 20px auto;
 
-/*    border: 1px solid #E4C652;*/
     border: 1px solid #1C4ABD;
     border-radius: 10px;
-/*    background: #EEDC94;*/
     background: #11247D;
 }
 
@@ -172,7 +145,6 @@ a:focus {
     position: relative;
     width: 900px;
     width: 1150px;
-/*	width: 1256px;*/
     padding: 40px;
     margin: 20px auto;
 
@@ -186,9 +158,6 @@ a:focus {
     font-size: 48px;
     line-height: 1.5;
 
-/*
-    background-color: black;
-*/
     color: white;
 }
 
@@ -225,19 +194,12 @@ a:focus {
     height: 700px;
     padding: 45px 65px;
 
-    /*background-color: white;*/
     background-color: black;
-/*    border: 1px solid rgba(0, 0, 0, .3);*/
     border: 1px solid rgba(0, 0, 0, .3);
     border-radius: 10px;
-/*    box-shadow: 0 2px 6px rgba(0, 0, 0, .1);*/
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
 
-    /*color: rgb(102, 102, 102);*/
-/*    color: white;*/
-    /*color: rgb(153, 153, 153);*/
     color: white;
-/*    text-shadow: 0 2px 2px rgba(0, 0, 0, .1);*/
     text-shadow: 0 2px 2px rgba(0, 0, 0, .1);
 
     font-family: 'Open Sans', Arial, sans-serif;
@@ -606,9 +568,7 @@ a:focus {
     right: 0;
     bottom: 200px;
 
-/*    background: rgba(0,0,0,0.5);*/
     background: rgba(0,0,0,0.5);
-/*    color: #EEE;*/
     color: #111;
     text-align: center;
 
@@ -734,7 +694,6 @@ th {
 td {
 	font-size: 12px;
 	white-space: nowrap;
-/*        font-family: monospace;*/
         font-family: courier, monospace;
         padding-right: 8px;
 }
@@ -765,7 +724,6 @@ td {
 .slide h2 {
         font-weight: bold;
         font-size: 50px;
-/*        text-decoration: underline;*/
         padding-bottom: 20px;
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
